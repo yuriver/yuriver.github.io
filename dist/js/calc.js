@@ -139,6 +139,24 @@ $(document).ready(function(){
                 } else if ($(this).text() == "g") {
                     displayValue += 'g(';
                     $('#result').text(displayValue);
+                } else if ($(this).text() == "sin") {
+            		displayValue += 'sin';
+                    $('#result').text(displayValue);
+				} else if ($(this).text() == "cos") {
+					displayValue += 'cos';
+                    $('#result').text(displayValue);
+				} else if ($(this).text() == "tan") {
+					displayValue += 'tan';
+                    $('#result').text(displayValue);
+				} else if ($(this).text() == "exp") {
+					displayValue += 'exp';
+                    $('#result').text(displayValue);
+				} else if ($(this).text() == "log") { 
+					displayValue += 'log';
+                    $('#result').text(displayValue);               
+                } else if ($(this).text() == "sqrt") { 	
+					displayValue += 'sqrt';
+                    $('#result').text(displayValue);               
                 } else {                        
                     displayValue += $(this).text();
                     $('#result').text(displayValue);

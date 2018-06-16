@@ -139,8 +139,8 @@ body {
 
 /* 추가 기능에 있는 버튼 */
 .key.inner {
-    width: 58px;
-    margin: 0px 3px 10px 3px;    
+    width: 61px;
+    margin: 0px 3.5px 10px 3px;    
 }
 
 .func-containter {    
